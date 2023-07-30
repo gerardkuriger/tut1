@@ -24,6 +24,9 @@ public class Greeter {
       Greeter greeter = new Greeter(language, country, name);
       System.out.println(greeter.sayHello());
     }
+    else{
+      System.out.println("You need to give THree arguments (language, country, name)");
+    }
     System.out.println("Exiting Program")
   }
 }
